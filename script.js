@@ -22,6 +22,7 @@ function jalankanHitungMundur() {
     document.getElementById('hours').innerText = String(jam).padStart(2, '0');
     document.getElementById('minutes').innerText = String(menit).padStart(2, '0');
     document.getElementById('seconds').innerText = String(detik).padStart(2, '0');
+    document.getElementById('seconds').innerText = String(detik).padStart(2, '0');
   }, 1000);
 }
 
